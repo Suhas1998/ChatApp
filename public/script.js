@@ -1,4 +1,4 @@
-const socket = io('/')
+const socket = io('http://localhost:8080')
 const messageForm = document.getElementById('send-container')
 const messageContainer = document.getElementById('message-container')
 const messageInput = document.getElementById('message-input')
